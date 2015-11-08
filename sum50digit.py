@@ -24,12 +24,9 @@ sum2 = 0;
 
 for i in range(49,-1,-1):
     sum1 = 0;
-    
     for j in range(100):
-        
         #print "val = ",int(lines[j][i])
         sum1 = sum1 + int(lines[j][i]);
-        
     print "i = ", i,"sum", sum1,    
     sum1 = sum1 + carry;
     print "sum",sum1    
@@ -59,19 +56,3 @@ f.write("\n");
 f.write(repr(fans));
 f.write("\n");
 f.write(fans1);
-'''
-print len(line)
-print "log =",math.log10((int(line)));
-print "len = ",len(repr(int(line)))
-k = []
-k.append(repr(int(line)));
-print "k = ",k
-l = string.split(k[0]);
-print "l = ",l
-j = ""
-for i in range(len(l)-1):
-    print l[i]
-    j = j.append(l[i])
-    
-print "j",j    
-'''
